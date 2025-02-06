@@ -1,4 +1,4 @@
-import { Hero, Navbar, Inquire } from "./Components/index.js";
+import { Hero, Navbar, Inquire, PopularDestinations, PopularPackages } from "./Components/index.js";
 
 
 const App = () => {
@@ -7,6 +7,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Inquire />
+      <PopularDestinations />
+      <PopularPackages />
     </>
   )
 }
