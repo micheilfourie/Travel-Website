@@ -3,7 +3,7 @@ import { franceImg, tailandImg, southAfricaImg } from '../assets/index.js'
 
 const PopularDestinations = () => {
     return (
-        <section className='flex flex-col w-full max-w-[1200px] p-10 gap-20 text-black mx-auto -translate-y-[50px] my-20'>
+        <section className='flex flex-col w-full max-w-[1200px] p-10 gap-20 text-black mx-auto my-20'>
             <SectionHeader heading={"Popular Destinations"} subHeading={"Top Rated Destinations"} />
 
             <div className='grid grid-cols-3 gap-6 h-[500px]'>

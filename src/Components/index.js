@@ -7,5 +7,6 @@ import Button from "./Button.jsx";
 import DestinationCard from "./DestinationCard.jsx";
 import PopularPackages from "./PopularPackages.jsx";
 import PackageCard from "./PackageCard.jsx";
+import RememberUs from "./RememberUs.jsx";
 
-export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard };
+export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard, RememberUs };
