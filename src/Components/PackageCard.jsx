@@ -4,7 +4,7 @@ const PackageCard = ({ image, price, duration, people, location, heading, body }
     return (
         <div>
             <div className="relative ">
-                <img src={image} alt="" className="w-full h-full object-cover aspect-[10/9]" />
+                <img src={image} loading="lazy" alt="" className="w-full h-full object-cover aspect-[10/9]" />
 
                 <div className="bg-coral py-2 px-4 absolute top-4 right-0 text-white">
                     <p className="lowercase text-sm"><span className="font-bold text-2xl">{`$${price}`}</span> / per person</p>

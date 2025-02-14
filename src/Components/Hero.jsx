@@ -45,6 +45,7 @@ const Hero = () => {
                 <img
                     key={index}
                     src={image}
+                    loading="lazy"
                     alt={`hero${index + 1}`}
                     className={`absolute top-0 left-0 w-full h-full object-cover transition-all ease-in-out duration-[1500ms] brightness-50  ${slide === index ? "opacity-100" : "opacity-0"} -z-10`} />
             ))}

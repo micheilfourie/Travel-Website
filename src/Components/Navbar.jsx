@@ -1,6 +1,5 @@
 import { logo, logoNegative } from "../assets/index.js"
 import { Button } from "./index.js"
-
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -17,13 +16,13 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav className={`fixed w-full h-[80px] z-30 ${isAtTop ? "bg-transparent text-white" : "bg-white text-dark"} transition-colors duration-300 ease-in-out`}>
+        <nav className={`fixed w-full h-[80px] z-30 ${isAtTop ? "bg-transparent text-white" : "bg-white text-dark shadow-xl"} transition-colors duration-300 ease-in-out`}>
 
             <div className="w-full max-w-[1200px] flex justify-between items-center h-full mx-auto px-8">
 
                 <div className="w-[150px] h-[80%] relative">
-                    <img src={logo} alt="" className={`absolute bottom-0 left-0 transition-opacity duration-300 ease-in-out ${!isAtTop ? 'opacity:100' : 'opacity-0'}`} />
-                    <img src={logoNegative} alt="" className={`absolute bottom-0 left-0 transition-opacity duration-300 ease-in-out ${isAtTop ? 'opacity:100' : 'opacity-0'}`} />
+                    <img src={logo} loading="lazy" alt="" className={`absolute bottom-0 left-0 transition-opacity duration-300 ease-in-out ${!isAtTop ? 'opacity:100' : 'opacity-0'}`} />
+                    <img src={logoNegative} loading="lazy" alt="" className={`absolute bottom-0 left-0 transition-opacity duration-300 ease-in-out ${isAtTop ? 'opacity:100' : 'opacity-0'}`} />
                 </div>
 
 

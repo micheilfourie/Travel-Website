@@ -5,7 +5,7 @@ const DestinationCard = ({ image, country, city }) => {
     return (
         <div className="relative h-full">
 
-            <img src={image} alt="" className="absolute w-full h-full object-cover brightness-75" />
+            <img src={image} loading="lazy" alt="" className="absolute w-full h-full object-cover brightness-75" />
 
             <div className="absolute top-4 left-4 py-2 px-4 bg-blue text-white uppercase ">
                 <h2 className="font-bold tracking-wider text-md">{country}</h2>
