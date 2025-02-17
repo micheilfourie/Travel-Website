@@ -9,5 +9,18 @@ import malaysiaImg from './malaysia.webp'
 import tableMountainImg from './mountain_hike.webp'
 import norwayImg from './norway.webp'
 import rememberThumbnail from './Remember_Thumbnail.webp'
+import backpackSvg from './backpack.png'
+import offroadSvg from './offroad.png'
+import mountainSvg from './mountain.png'
+import mapSvg from './map.png'
+import campSvg from './camp.png'
+import campfireSvg from './campfire.png'
+import canoeImg from './canoe.webp'
+import mountainBrand from './mountain_brand.png'
+import natureBrand from './nature_magazine_brand.png'
+import outdoorAdventureBrand from './outdoor_adventure_brand.png'
+import outdoorBrand from './outdoor_brand.png'
+import travelBrand from './travel_brand.png'
 
-export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail }
+
+export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail, backpackSvg, offroadSvg, mountainSvg, mapSvg, campSvg, campfireSvg, canoeImg, mountainBrand, natureBrand, outdoorAdventureBrand, outdoorBrand, travelBrand }

@@ -2,7 +2,7 @@ import { Button } from "./index.js"
 
 const Inquire = () => {
     return (
-        <div className="flex flex-col items-center w-[80%] max-w-[1000px] bg-white p-10 gap-10  mx-auto -translate-y-[50px]">
+        <section className="flex flex-col items-center w-[80%] max-w-[1000px] bg-white p-10 gap-10  mx-auto -translate-y-[50px]">
 
             <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-10 text-dark">
 
@@ -30,7 +30,7 @@ const Inquire = () => {
 
             <Button text={"Inquire Now"} />
 
-        </div>
+        </section>
 
     )
 }

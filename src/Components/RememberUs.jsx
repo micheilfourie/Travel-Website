@@ -6,9 +6,9 @@ import { SectionHeader } from "./index.js"
 const RememberUs = () => {
     return (
 
-        <section className="w-full overflow-hidden">
+        <section className="w-full overflow-hidden mb-30 mt-10">
 
-            <div className="relative flex justify-center items-center gap-16 pr-10 py-20 my-20 mx-auto max-w-[1200px]">
+            <div className="relative flex justify-center items-center gap-16 pr-10 py-16 my-20 mx-auto max-w-[1200px]">
 
                 <div className="absolute left-0 top-0 h-full w-screen bg-blue -z-10 ml-[15%]"></div>
 
@@ -20,7 +20,7 @@ const RememberUs = () => {
 
                     <a href="https://www.youtube.com/watch?v=cNXRmdZzvGE" target="_blank" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-full flex justify-center items-center p-8">
 
-                        <PlayIcon className="size-10 text-blue translate-x-[2px]" />
+                        <PlayIcon className="size-10 text-coral translate-x-[2px]" />
 
                     </a>
 
@@ -36,23 +36,42 @@ const RememberUs = () => {
 
                     <div className="grid grid-cols-2 grid-rows-2 gap-[1px] bg-white my-20">
 
-                        {[UsersIcon, CheckBadgeIcon, UserPlusIcon, HeartIcon].map((Icon, index) => (
-                            <div key={index} className="bg-blue p-6 flex justify-center items-center">
-
-                                <Icon className="size-16" />
-
-                                <div className="ml-2">
-                                    <h1 className="text-3xl font-[800]">250K+</h1>
-                                    <p>Happy Clients</p>
-                                </div>
-
+                        <div className="bg-blue p-6 flex justify-center items-center">
+                            <UsersIcon className="size-16" />
+                            <div className="ml-2">
+                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <p>Happy Clients</p>
                             </div>
-                        ))}
+                        </div>
+
+                        <div className="bg-blue p-6 flex justify-center items-center">
+                            <CheckBadgeIcon className="size-16" />
+                            <div className="ml-2">
+                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+
+                        <div className="bg-blue p-6 flex justify-center items-center">
+                            <UserPlusIcon className="size-16" />
+                            <div className="ml-2">
+                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+
+                        <div className="bg-blue p-6 flex justify-center items-center">
+                            <HeartIcon className="size-16" />
+                            <div className="ml-2">
+                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-center items-center gap-6 py-10 px-20 bg-white absolute bottom-0 left-1/2 translate-y-[50%] text-nowrap">
+                <div className="flex flex-col justify-center items-center gap-6 py-8 px-16 bg-white absolute bottom-0 left-1/2 translate-y-[50%] text-nowrap">
 
                     <p className="text-dark text-2xl font-[500]">Our 24/7 Support Line:</p>
 

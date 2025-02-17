@@ -3,10 +3,11 @@ import { malaysiaImg, tableMountainImg, norwayImg } from "../assets"
 
 const PopularPackages = () => {
     return (
-        <div className="flex flex-col w-full max-w-[1200px] p-10 gap-20 text-black mx-auto">
+        <section className="flex flex-col w-full max-w-[1200px] p-10 gap-10 text-black mx-auto">
+
             <SectionHeader heading={"Explore Great Places"} subHeading={"Popular Packages"} justify="center" />
 
-            <p className="text-center max-w-[800px] mx-auto -mt-10">
+            <p className="text-center max-w-[800px] mx-auto">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, quidem culpa illo minus sint veritatis excepturi et libero voluptas! Nobis facilis similique molestias libero reprehenderit iusto itaque incidunt eius dolorum.
             </p>
 
@@ -44,7 +45,7 @@ const PopularPackages = () => {
                 <Button text={"View All Packages"} />
             </div>
 
-        </div>
+        </section>
     )
 }
 

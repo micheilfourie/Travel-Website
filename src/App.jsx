@@ -1,4 +1,4 @@
-import { Hero, Navbar, Inquire, PopularDestinations, PopularPackages, RememberUs } from "./Components/index.js";
+import { Hero, Navbar, Inquire, PopularDestinations, PopularPackages, RememberUs, DestinationCatagory, SpecialOffers, TourGallery, HolidaySpecial } from "./Components/index.js";
 
 
 const App = () => {
@@ -10,6 +10,10 @@ const App = () => {
       <PopularDestinations />
       <PopularPackages />
       <RememberUs />
+      <DestinationCatagory />
+      <SpecialOffers />
+      <TourGallery />
+      <HolidaySpecial />
     </>
   )
 }

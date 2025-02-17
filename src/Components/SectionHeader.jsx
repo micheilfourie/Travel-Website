@@ -8,7 +8,7 @@ const SectionHeader = ({ heading, subHeading, justify = 'start', negative = fals
                 <h3 className={`text-md font-raleway font-[800] ${negative ? 'text-white' : 'text-coral'} uppercase`}>{heading}</h3>
             </div>
 
-            <h1 className={`text-5xl font-raleway font-[900] ${negative ? 'text-white' : 'text-dark'}`}>{subHeading}</h1>
+            <h1 className={`text-5xl font-raleway font-[900] ${negative ? 'text-white' : 'text-dark'} uppercase`}>{subHeading}</h1>
 
         </div>
 
