@@ -18,7 +18,7 @@ const SpecialOfferCard = ({ image, discount, country, heading, originalPrice }) 
                 <h3 className="text-white text-md font-bold tracking-wide">off</h3>
             </div>
 
-            <div className="absolute flex flex-col justify-between gap-4 bottom-0 left-1/2 -translate-x-1/2 p-10 bg-white text-dark w-[90%] translate-y-[50%] h-[270px]">
+            <div className="absolute flex flex-col justify-between gap-4 bottom-0 left-1/2 -translate-x-1/2 p-10 bg-white text-dark w-[90%] translate-y-[30%] h-[270px]">
                 <div className="flex flex-col gap-4">
                     <h3 className="font-bold text-md text-blue uppercase">{country}</h3>
                     <h2 className="font-[800] text-2xl">{heading}</h2>

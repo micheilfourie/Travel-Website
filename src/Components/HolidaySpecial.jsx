@@ -3,22 +3,19 @@ import { SectionHeader } from "./index.js"
 
 const HolidaySpecial = () => {
     return (
-        <section className="w-full relative mb-20 mt-60 bg-fixed bg-center bg-cover " style={{ backgroundImage: `url(${canoeImg})` }}>
+        <section className="w-full relative mb-20 mt-40 bg-fixed bg-center bg-cover " style={{ backgroundImage: `url(${canoeImg})` }}>
 
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue w-full max-w-[1200px] py-10 z-10 flex flex-wrap justify-evenly items-center gap-6">
-
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue w-full max-w-[1120px] p-10 z-10 flex flex-wrap justify-evenly items-center gap-6">
 
                 {[mountainBrand, natureBrand, outdoorAdventureBrand, travelBrand, outdoorBrand].map((image, index) => (
-
                     <img key={index} src={image} loading="lazy" alt="" />
-
                 ))}
 
             </div>
 
             <div className="w-full h-full backdrop-brightness-50 flex justify-center items-center">
 
-                <div className="w-[90%] max-w-[1200px] text-white pt-50 pb-26">
+                <div className="w-full max-w-[1200px] text-white pt-50 pb-26 px-10">
 
                     <SectionHeader heading={"Holiday Package Offer"} subHeading={"Holiday Special 25% Off!"} negative={true} />
 

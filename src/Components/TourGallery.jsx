@@ -3,7 +3,7 @@ import { norwayImg, tableMountainImg, malaysiaImg, heroImg2 } from "../assets/in
 
 const TourGallery = () => {
     return (
-        <section className="grid grid-cols-[1.5fr_1fr_1fr] grid-rows-[300px_350px] w-full max-w-[1200px] p-10 gap-6 text-black mx-auto mb-10 mt-20">
+        <section className="grid grid-cols-[1.5fr_1fr_1fr] grid-rows-[300px_350px] w-full max-w-[1200px] p-10 gap-6 text-black mx-auto mt-20">
 
             <div className="w-full h-full">
                 <SectionHeader heading={"Our Tour Gallery"} subHeading={"Best Traveler's Shared Photos"} />

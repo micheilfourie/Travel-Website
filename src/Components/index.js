@@ -13,5 +13,9 @@ import SpecialOffers from "./SpecialOffers.jsx";
 import SpecialOfferCard from "./SpecialOfferCard.jsx";
 import TourGallery from "./TourGallery.jsx";
 import HolidaySpecial from "./HolidaySpecial.jsx";
+import RecentPosts from "./RecentPosts.jsx";
+import RecentPostCard from "./RecentPostCard.jsx";
+import FeaturedComments from "./FeaturedComments.jsx";
+import CommentSlide from "./CommentSlide.jsx";
 
-export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard, RememberUs, DestinationCatagory, SpecialOffers, SpecialOfferCard, TourGallery, HolidaySpecial };
+export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard, RememberUs, DestinationCatagory, SpecialOffers, SpecialOfferCard, TourGallery, HolidaySpecial, RecentPosts, RecentPostCard, FeaturedComments, CommentSlide };

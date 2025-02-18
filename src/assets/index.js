@@ -21,6 +21,6 @@ import natureBrand from './nature_magazine_brand.png'
 import outdoorAdventureBrand from './outdoor_adventure_brand.png'
 import outdoorBrand from './outdoor_brand.png'
 import travelBrand from './travel_brand.png'
+import portraitImg from './portrait.webp'
 
-
-export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail, backpackSvg, offroadSvg, mountainSvg, mapSvg, campSvg, campfireSvg, canoeImg, mountainBrand, natureBrand, outdoorAdventureBrand, outdoorBrand, travelBrand }
+export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail, backpackSvg, offroadSvg, mountainSvg, mapSvg, campSvg, campfireSvg, canoeImg, mountainBrand, natureBrand, outdoorAdventureBrand, outdoorBrand, travelBrand, portraitImg }

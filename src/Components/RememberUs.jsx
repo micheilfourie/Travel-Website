@@ -39,7 +39,7 @@ const RememberUs = () => {
                         <div className="bg-blue p-6 flex justify-center items-center">
                             <UsersIcon className="size-16" />
                             <div className="ml-2">
-                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <h1 className="text-3xl font-[800]">150K+</h1>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const RememberUs = () => {
                         <div className="bg-blue p-6 flex justify-center items-center">
                             <UserPlusIcon className="size-16" />
                             <div className="ml-2">
-                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <h1 className="text-3xl font-[800]">100K+</h1>
                                 <p>Happy Clients</p>
                             </div>
                         </div>
@@ -63,7 +63,7 @@ const RememberUs = () => {
                         <div className="bg-blue p-6 flex justify-center items-center">
                             <HeartIcon className="size-16" />
                             <div className="ml-2">
-                                <h1 className="text-3xl font-[800]">250K+</h1>
+                                <h1 className="text-3xl font-[800]">200K+</h1>
                                 <p>Happy Clients</p>
                             </div>
                         </div>

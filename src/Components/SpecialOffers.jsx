@@ -18,7 +18,7 @@ const SpecialOffers = () => {
                 <SpecialOfferCard image={tailandImg} discount={"20%"} country={"Tailand"} heading={"Experience the Beauty of Bangkok"} originalPrice={"2100"} />
             </div>
 
-            <div className="mt-30 w-full flex justify-center">
+            <div className="mt-20 w-full flex justify-center">
                 <Button text={"View All Specials"} />
             </div>
 
