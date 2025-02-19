@@ -41,7 +41,7 @@ const PopularPackages = () => {
                 />
             </div>
 
-            <div className='flex justify-center'>
+            <div className='flex justify-center mt-4'>
                 <Button text={"View All Packages"} />
             </div>
 

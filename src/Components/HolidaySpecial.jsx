@@ -1,9 +1,9 @@
 import { canoeImg, travelBrand, outdoorBrand, outdoorAdventureBrand, natureBrand, mountainBrand } from "../assets/index.js"
-import { SectionHeader } from "./index.js"
+import { SectionHeader, Button } from "./index.js"
 
 const HolidaySpecial = () => {
     return (
-        <section className="w-full relative mb-20 mt-40 bg-fixed bg-center bg-cover " style={{ backgroundImage: `url(${canoeImg})` }}>
+        <section className="w-full relative mb-20 mt-50 bg-fixed bg-center bg-cover " style={{ backgroundImage: `url(${canoeImg})` }}>
 
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue w-full max-w-[1120px] p-10 z-10 flex flex-wrap justify-evenly items-center gap-6">
 
@@ -27,9 +27,7 @@ const HolidaySpecial = () => {
 
                         <input type="email" placeholder="Enter your email" className="w-full h-full max-w-[650px] mx-4 focus:outline-none" />
 
-                        <button className=" bg-coral uppercase text-nowrap py-4 px-6 hover:bg-blue transition-all ease-in-out duration-100">
-                            sign up now!
-                        </button>
+                        <Button text={"Sign Up"} />
 
                     </div>
 

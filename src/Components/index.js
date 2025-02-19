@@ -17,5 +17,7 @@ import RecentPosts from "./RecentPosts.jsx";
 import RecentPostCard from "./RecentPostCard.jsx";
 import FeaturedComments from "./FeaturedComments.jsx";
 import CommentSlide from "./CommentSlide.jsx";
+import ContactUs from "./ContactUs.jsx";
+import Footer from "./Footer.jsx";
 
-export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard, RememberUs, DestinationCatagory, SpecialOffers, SpecialOfferCard, TourGallery, HolidaySpecial, RecentPosts, RecentPostCard, FeaturedComments, CommentSlide };
+export { Navbar, Hero, Inquire, PopularDestinations, SectionHeader, Button, DestinationCard, PopularPackages, PackageCard, RememberUs, DestinationCatagory, SpecialOffers, SpecialOfferCard, TourGallery, HolidaySpecial, RecentPosts, RecentPostCard, FeaturedComments, CommentSlide, ContactUs, Footer };

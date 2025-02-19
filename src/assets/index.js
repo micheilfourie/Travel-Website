@@ -22,5 +22,10 @@ import outdoorAdventureBrand from './outdoor_adventure_brand.png'
 import outdoorBrand from './outdoor_brand.png'
 import travelBrand from './travel_brand.png'
 import portraitImg from './portrait.webp'
+import contactImg from './person_on_tour.webp'
+import emailIcon from "../assets/email.png";
+import phoneIcon from "../assets/phone.png";
+import mapSecondaryIcon from "../assets/map_secondary.png";
+import travvyAwardImg from "../assets/travvy_award.png";
 
-export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail, backpackSvg, offroadSvg, mountainSvg, mapSvg, campSvg, campfireSvg, canoeImg, mountainBrand, natureBrand, outdoorAdventureBrand, outdoorBrand, travelBrand, portraitImg }
+export { heroImg1, heroImg2, logo, logoNegative, franceImg, tailandImg, southAfricaImg, malaysiaImg, tableMountainImg, norwayImg, rememberThumbnail, backpackSvg, offroadSvg, mountainSvg, mapSvg, campSvg, campfireSvg, canoeImg, mountainBrand, natureBrand, outdoorAdventureBrand, outdoorBrand, travelBrand, portraitImg, contactImg, emailIcon, phoneIcon, mapSecondaryIcon, travvyAwardImg };

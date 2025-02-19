@@ -8,7 +8,7 @@ const RememberUs = () => {
 
         <section className="w-full overflow-hidden mb-30 mt-10">
 
-            <div className="relative flex justify-center items-center gap-16 pr-10 py-16 my-20 mx-auto max-w-[1200px]">
+            <div className="relative flex justify-center items-center gap-16 pr-10 py-16 my-14 mx-auto max-w-[1200px]">
 
                 <div className="absolute left-0 top-0 h-full w-screen bg-blue -z-10 ml-[15%]"></div>
 
