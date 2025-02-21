@@ -27,7 +27,7 @@ const FeaturedComments = () => {
     const [slideIndex, setSlideIndex] = useState(0)
 
     return (
-        <section className="relative flex flex-col justify-center items-center w-full max-w-[1200px] p-10 my-10 gap-10 text-dark mx-auto overflow-hidden">
+        <section className="relative flex flex-col justify-center items-center w-full max-w-[1200px] py-10 my-10 gap-10 text-dark mx-auto overflow-hidden">
 
             <div className={`w-full flex transition-transform duration-1000 ease-in-out`}
                 style={{ transform: `translateX(-${slideIndex * 100}%)` }}>

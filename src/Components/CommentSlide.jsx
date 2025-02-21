@@ -9,7 +9,7 @@ const CommentSlide = ({ profileImg, name, occupation, comment }) => {
                 </div>
             </div>
 
-            <p className="text-xl max-w-[800px] text-center italic">{`" ${comment} "`}</p>
+            <p className="text-xl max-w-[800px] text-center italic px-10 max-md:text-lg max-sm:px-4">{`" ${comment} "`}</p>
 
             <div className="w-[80%] max-w-[800px] flex flex-col justify-center items-center">
 

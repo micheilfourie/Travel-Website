@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="w-full bg-[#393938] text-white">
 
-            <div className="w-full h-full max-w-[1200px] py-20 p-10 grid grid-cols-4 justify-between items-center gap-10 mx-auto">
+            <div className="w-full h-full max-w-[1200px] py-20 px-10 max-sm:px-4 grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 justify-between items-center gap-16 mx-auto">
 
                 <div className="w-full h-full flex flex-col justify-start items-start gap-4">
 
@@ -88,7 +88,7 @@ const Footer = () => {
 
             <div className="w-full bg-[#414140]">
 
-                <div className="w-full h-full max-w-[1200px] p-10 flex justify-between items-center mx-auto">
+                <div className="w-full h-full max-w-[1200px] py-6 px-10 flex max-lg:flex-col max-lg:gap-4 justify-between items-center mx-auto">
 
                     <div className="whitespace-pre">
                         <a href="" className="hover:text-coral">
@@ -104,7 +104,7 @@ const Footer = () => {
                         </a>
                     </div>
 
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center max-lg:hidden">
                         <img src={logoNegative} alt="" className="max-h-[70px]" />
                     </div>
 

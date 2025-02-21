@@ -3,7 +3,7 @@ import { StarIcon } from "@heroicons/react/16/solid"
 
 const DestinationCard = ({ image, country, city }) => {
     return (
-        <div className="relative h-full">
+        <div className="relative h-full min-h-[500px]">
 
             <img src={image} loading="lazy" alt="" className="absolute w-full h-full object-cover brightness-75" />
 

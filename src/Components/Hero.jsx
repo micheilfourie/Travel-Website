@@ -25,15 +25,15 @@ const Hero = () => {
     }
 
     return (
-        <header className="w-full h-[800px] relative overflow-hidden transition-all ease-in duration-1000 mx-auto">
+        <header id="home" className="w-full h-[800px] relative overflow-hidden transition-all ease-in duration-1000 mx-auto">
 
-            <div className="w-full h-full flex flex-col justify-center gap-10 items-center text-white">
-                <h1 className="text-8xl font-[900] text-center uppercase">
+            <div className="w-full h-full flex flex-col justify-center gap-10 items-center text-white px-10 max-sm:px-4">
+                <h1 className="text-8xl font-[900] text-center uppercase max-lg:text-7xl max-md:text-6xl max-sm:text-5xl">
                     Travelling
                     <br />
                     Around The World
                 </h1>
-                <p className="text-xl text-center max-w-[800px] w-[90%]">
+                <p className="text-xl text-center max-w-[800px] w-[90%] max-md:text-[18px]">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quos natus assumenda temporibus in laudantium porro doloremque id?
                 </p>
 

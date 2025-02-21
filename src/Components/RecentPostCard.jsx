@@ -5,7 +5,7 @@ const RecentPostCard = ({ image, heading, date, photographer, commentAmount }) =
     const postInfo = `${date}  |  ${photographer}  |  ${commentAmount > 0 ? commentAmount + " comments" : "No comments"}`;
 
     return (
-        <div className="h-full flex flex-col justify-center gap-4 bg-white text-dark w-full">
+        <div className="h-full flex flex-col justify-start gap-4 bg-white text-dark w-full">
 
             <div>
                 <img src={image} loading="lazy" alt="" className="w-full h-full object-cover" />
