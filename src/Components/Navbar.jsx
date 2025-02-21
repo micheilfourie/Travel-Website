@@ -70,7 +70,7 @@ const Navbar = () => {
             <div className={`flex flex-col font-raleway font-[600] h-[350px] justify-center items-center lg:hidden fixed top-[-360px] left-0 w-full bg-white z-20 ${navOpen ? 'translate-y-[450px] shadow-xl' : ''} transition-all duration-500 ease-in-out`}>
 
                 {navLinks.map(({ name, link }, index) => (
-                    <a key={index}
+                    <a onClick={() => setNavOpen(false)} key={index}
                         href={link}
                         className="w-full h-16 flex justify-center items-center text-lg hover:text-coral">
                         {name}
