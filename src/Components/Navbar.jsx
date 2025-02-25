@@ -61,18 +61,18 @@ const Navbar = () => {
                     </div>
 
                     <div className="lg:hidden">
-                        <Button action={() => setNavOpen(!navOpen)} text={!navOpen ? <Bars3Icon className="size-14" /> : <Bars3BottomRightIcon className="size-14" />} isFullWidth={false} bgNegative={true} hoverNegative={true} />
+                        <Button action={() => setNavOpen(!navOpen)} text={!navOpen ? <Bars3Icon className="size-12" /> : <Bars3BottomRightIcon className="size-12" />} isFullWidth={false} bgNegative={true} hoverNegative={true} />
                     </div>
 
                 </div>
             </div>
 
-            <div className={`flex flex-col font-raleway font-[600] h-[350px] justify-center items-center lg:hidden fixed top-[-360px] left-0 w-full bg-white z-20 ${navOpen ? 'translate-y-[450px] shadow-xl' : ''} transition-all duration-500 ease-in-out`}>
+            <div className={`flex flex-col font-raleway font-[600] justify-center items-center lg:hidden fixed top-[-360px] left-0 w-full bg-white z-20 ${navOpen ? 'translate-y-[450px] shadow-xl' : ''} transition-all duration-500 ease-in-out`}>
 
                 {navLinks.map(({ name, link }, index) => (
                     <a onClick={() => setNavOpen(false)} key={index}
                         href={link}
-                        className="w-full h-16 flex justify-center items-center text-lg hover:text-coral">
+                        className={`w-full ${index === navLinks.length - 1 ? 'border-b-0' : 'border-b-[1px]'} border-gray-300 h-16 flex justify-center items-center text-lg hover:text-coral`}>
                         {name}
                     </a>
                 ))}
