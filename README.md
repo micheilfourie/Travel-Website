@@ -1,8 +1,5 @@
-# React + Vite
+# Travel Website - React/Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+As a personal project I recreated one of envato elements websites using react and tailwind. I reused some assets from their demo site to speed up the design process.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+link: https://demo.bosathemes.com/html/travele/?storefront=envato-elements
